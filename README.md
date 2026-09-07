@@ -30,6 +30,19 @@ Third city in this series, after [Dublin](https://github.com/vamsi9090/dublin-mo
 
 Full detail, every number sourced and cross-checked, every real ambiguity documented: **[`reports/ANALYSIS_REPORT.md`](reports/ANALYSIS_REPORT.md)**
 
+## Length, by category (km)
+
+| Category | OSM | Government |
+|---|---:|---:|
+| Bus routes | 4,065.8 km | 15,520.3 km |
+| Bus/taxi lanes | 173.00 km | 286.03 km |
+| Cycling — dedicated track | 576.17 km | 319.15 km |
+| Cycling — on-road lane | 660.59 km | 632.39 km |
+| Cycling — shared path | 1,202.89 km | 1,054.89 km |
+| Walking | 13,027.5 km | — (no dataset exists) |
+
+*Bus routes: OSM's figure is the deduplicated physical road network used by all routes (a road shared by 10 routes counts once); the government figure is the sum of each route-direction's own length (that same road counts 10 times). Not a 3.8x completeness gap — a different unit of measurement. Every other row is a like-for-like length comparison.*
+
 ## The map
 
 **[Live: open in a browser](https://vamsi9090.github.io/london-mobility-analysis/maps/london_osm_vs_gov_map.html)** — or locally: [`maps/london_osm_vs_gov_map.html`](maps/london_osm_vs_gov_map.html) (self-contained, ~87MB — large because London's real network scale is roughly 4x Dublin's: 250,724 walking ways, 51,689 OSM bus-route segments, 75,000+ cycling ways). Toggle-able layers, grouped into a custom sidebar:
