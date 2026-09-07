@@ -1,0 +1,16 @@
+{
+  "all_amenity_taxi_nodes": {
+    "osm_candidate_count": 182,
+    "matched": 84,
+    "gov_match_rate_pct": 12.1,
+    "osm_match_rate_pct": 42.3,
+    "median_distance_m": 11.4
+  },
+  "rank_like_subset_only": {
+    "osm_candidate_count": 155,
+    "matched": 80,
+    "gov_match_rate_pct": 11.5,
+    "osm_match_rate_pct": 47.1,
+    "median_distance_m": 10.4
+  }
+}

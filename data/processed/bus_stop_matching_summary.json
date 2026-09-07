@@ -1,0 +1,15 @@
+{
+  "gov_total": 20368,
+  "osm_total": 19942,
+  "gov_with_atco_code": 19083,
+  "osm_with_atco_code": 19693,
+  "code_matches": 17964,
+  "fallback_spatial_matches_within_30m": 927,
+  "total_matched": 18891,
+  "gov_match_rate_pct": 92.7,
+  "osm_match_rate_pct": 94.4,
+  "median_distance_m_code_matches": 5.0,
+  "median_distance_m_all_matches": 5.1,
+  "gov_unmatched": 1477,
+  "osm_unmatched": 1119
+}

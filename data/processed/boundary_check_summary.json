@@ -1,0 +1,23 @@
+{
+  "boundary_iou": 0.9999,
+  "gov_bus_stops": {
+    "total": 21552,
+    "outside_gla": 1184,
+    "outside_pct": 5.49
+  },
+  "osm_bus_stops": {
+    "total": 19942,
+    "outside_gla": 0,
+    "outside_pct": 0.0
+  },
+  "gov_taxi_ranks": {
+    "total": 728,
+    "outside_gla": 3,
+    "outside_pct": 0.41
+  },
+  "osm_taxi_ranks": {
+    "total": 182,
+    "outside_gla": 0,
+    "outside_pct": 0.0
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "osm_summary_by_type": {
+    "dedicated_track": {
+      "count": 15579,
+      "length_km": 576.17
+    },
+    "on_road_lane": {
+      "count": 12981,
+      "length_km": 660.59
+    },
+    "shared_path": {
+      "count": 24611,
+      "length_km": 1202.89
+    },
+    "unclassified": {
+      "count": 923,
+      "length_km": 61.26
+    }
+  },
+  "gov_cid_summary_by_type": {
+    "on_road_lane": {
+      "count": 9330,
+      "length_km": 632.39
+    },
+    "dedicated_track": {
+      "count": 5475,
+      "length_km": 319.15
+    },
+    "shared_path": {
+      "count": 10105,
+      "length_km": 1054.89
+    },
+    "unclassified": {
+      "count": 66,
+      "length_km": 6.65
+    }
+  },
+  "gap_by_type": {
+    "dedicated_track": {
+      "gov_length_covered_by_osm": {
+        "total_length_km": 319.15,
+        "coverage_pct_by_threshold": {
+          "5m": 27.1,
+          "10m": 53.3,
+          "15m": 58.8,
+          "20m": 60.7,
+          "30m": 63.7
+        }
+      },
+      "osm_length_covered_by_gov": {
+        "total_length_km": 576.17,
+        "coverage_pct_by_threshold": {
+          "5m": 16.8,
+          "10m": 36.9,
+          "15m": 42.3,
+          "20m": 44.4,
+          "30m": 47.3
+        }
+      }
+    },
+    "on_road_lane": {
+      "gov_length_covered_by_osm": {
+        "total_length_km": 632.39,
+        "coverage_pct_by_threshold": {
+          "5m": 33.3,
+          "10m": 72.9,
+          "15m": 75.4,
+          "20m": 76.7,
+          "30m": 79.1
+        }
+      },
+      "osm_length_covered_by_gov": {
+        "total_length_km": 660.59,
+        "coverage_pct_by_threshold": {
+          "5m": 29.1,
+          "10m": 52.9,
+          "15m": 55.7,
+          "20m": 57.6,
+          "30m": 60.1
+        }
+      }
+    },
+    "shared_path": {
+      "gov_length_covered_by_osm": {
+        "total_length_km": 1054.89,
+        "coverage_pct_by_threshold": {
+          "5m": 34.4,
+          "10m": 43.2,
+          "15m": 45.2,
+          "20m": 46.8,
+          "30m": 49.6
+        }
+      },
+      "osm_length_covered_by_gov": {
+        "total_length_km": 1202.89,
+        "coverage_pct_by_threshold": {
+          "5m": 31.7,
+          "10m": 40.7,
+          "15m": 44.1,
+          "20m": 46.4,
+          "30m": 50.7
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "counts_by_highway_subtype": {
+    "footway": 217395,
+    "path": 15531,
+    "pedestrian": 4641,
+    "steps": 12669,
+    "living_street": 488
+  },
+  "total_ways": 250724,
+  "government_dataset_search_result": {
+    "conclusion": "No free, comprehensive, open government footway/pedestrian network dataset exists for London.",
+    "candidates_checked": [
+      {
+        "dataset": "OS MasterMap Highways Network - Paths",
+        "finding": "Licence not set on data.gov.uk listing; no public download link; OS's PSGA/premium product, requires a paid licence/account."
+      },
+      {
+        "dataset": "OS Detailed Path Network",
+        "finding": "Open (OGL) but explicitly scoped to off-road navigation in National Parks, not urban footways -- does not cover London."
+      },
+      {
+        "dataset": "OS Open Roads",
+        "finding": "Free (OGL), direct bulk download available, but covers vehicle roads only ('motorways to country lanes') -- footpaths are explicitly not a feature type."
+      }
+    ]
+  }
+}

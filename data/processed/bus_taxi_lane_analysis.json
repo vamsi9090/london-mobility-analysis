@@ -1,0 +1,45 @@
+{
+  "vehicle_permission_analysis": {
+    "total_gov_lane_segments": 1318,
+    "distinct_vehicles_values": {
+      "Bus, Cycle and Taxi": 625,
+      "Bus, Cycle, Motorcycle and Taxi": 474,
+      "Bus": 129,
+      "Bus and Cycle": 73,
+      "Bus, Cycle, Motorcycle, Taxi and Authorised Vehicle": 5,
+      "null": 5,
+      "Bus, Cycle, Taxi and Authorised Vehicle": 3,
+      "Bus, Cycle and Authorised Vehicle": 2,
+      "Bus, Cycle and Motorcyle": 2
+    },
+    "segments_permitting_taxi_pct": 84.0,
+    "segments_bus_lane_excluding_taxi_pct": 15.6,
+    "finding": "84.0% of government-documented bus lane segments explicitly permit taxis; 15.6% are bus-only (or bus+cycle, excluding taxi) -- unlike Dublin, London does NOT treat 'bus lane' and 'taxi-permitted lane' as fully interchangeable."
+  },
+  "osm_taxi_tag_analysis": {
+    "total_osm_lane_ways": 3287,
+    "ways_with_any_taxi_tag": 442,
+    "pct_with_taxi_tag": 13.4
+  },
+  "gov_length_covered_by_osm_at_threshold": {
+    "total_length_km": 286.03,
+    "coverage_pct_by_threshold": {
+      "5m": 14.4,
+      "10m": 48.8,
+      "15m": 52.2,
+      "20m": 53.7,
+      "30m": 55.5
+    }
+  },
+  "osm_length_covered_by_gov_at_threshold": {
+    "total_length_km": 173.0,
+    "coverage_pct_by_threshold": {
+      "5m": 22.7,
+      "10m": 68.6,
+      "15m": 71.0,
+      "20m": 72.1,
+      "30m": 73.4
+    }
+  },
+  "headline_gap_pct_gov_not_in_osm_at_15m": 47.8
+}

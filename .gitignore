@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+.DS_Store
+Thumbs.db
+
+# Raw downloads: large, and every fetch script re-derives them live from
+# public APIs (Overpass, TfL ArcGIS, TfL S3) -- see src/*.py docstrings.
+data/raw/
+
+# Map-layer cache: identical geometry/properties already embedded in
+# maps/london_osm_vs_gov_map.html -- committing it again would just double
+# the repo size for zero additional information.
+data/processed/map_layers/
