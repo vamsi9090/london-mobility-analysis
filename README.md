@@ -8,7 +8,7 @@
 
 ---
 
-Third city in this series, after [Dublin](https://github.com/vamsi9090/dublin-mobility-analysis) and [Paris](https://github.com/vamsi9090/paris-mobility-analysis). Same question each time: how complete is OpenStreetMap's picture of a city's transport infrastructure, compared to what the government actually documents — answered with live API queries and real spatial cross-referencing, not headline counts.
+Third city in this series, after [Dublin](https://github.com/vamsi9090/dublin-mobility-analysis) and [Paris](https://github.com/vamsi9090/geo-analysis-report). Same question each time: how complete is OpenStreetMap's picture of a city's transport infrastructure, compared to what the government actually documents — answered with live API queries and real spatial cross-referencing, not headline counts.
 
 ![Map overview — OSM bus routes (blue) vs. TfL bus routes (orange), London Buses network](assets/map_overview.jpg)
 *Toggle-able sidebar (grouped OSM / Government / Gaps, each with a live feature count) over Esri satellite imagery. Government routes are rendered in orange, OSM routes in blue — high-contrast by design, not by accident.*
@@ -106,5 +106,5 @@ This is one of three city analyses under **[european-mobility-analytics](https:/
 | City | Repo | Live map |
 |---|---|---|
 | 🇮🇪 Dublin | [dublin-mobility-analysis](https://github.com/vamsi9090/dublin-mobility-analysis) | [open](https://vamsi9090.github.io/dublin-mobility-analysis/maps/dublin_osm_vs_gov_map.html) |
-| 🇫🇷 Paris | [paris-mobility-analysis](https://github.com/vamsi9090/paris-mobility-analysis) | [open](https://vamsi9090.github.io/paris-mobility-analysis/maps/paris_osm_vs_gov_map.html) |
+| 🇫🇷 Paris | [geo-analysis-report](https://github.com/vamsi9090/geo-analysis-report) | [open](https://vamsi9090.github.io/geo-analysis-report/maps/paris_osm_vs_gov_map.html) |
 | 🇬🇧 London | this repo | [open](https://vamsi9090.github.io/london-mobility-analysis/maps/london_osm_vs_gov_map.html) |
